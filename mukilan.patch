@@ -1,0 +1,51 @@
+diff --git a/mukilan.txt b/mukilan.txt
+deleted file mode 100644
+index 62b7ae5..0000000
+--- a/mukilan.txt
++++ /dev/null
+@@ -1,2 +0,0 @@
+-Mukilan T
+-20CSR129
+diff --git a/prakatesh.txt b/prakatesh.txt
+deleted file mode 100644
+index 4fd25f0..0000000
+--- a/prakatesh.txt
++++ /dev/null
+@@ -1,2 +0,0 @@
+-prakatesh
+-20CSR150
+diff --git a/praveen.txt b/praveen.txt
+deleted file mode 100644
+index 3c346c0..0000000
+--- a/praveen.txt
++++ /dev/null
+@@ -1,2 +0,0 @@
+-praveen
+-20csr153
+diff --git a/reverse.py b/reverse.py
+deleted file mode 100644
+index f7a7752..0000000
+--- a/reverse.py
++++ /dev/null
+@@ -1,18 +0,0 @@
+-import array as arr
+-from array import *
+-
+-a = arr.array('i', [])
+-
+-k = int(input("Enter size of array:"))
+-for i in range(0, k):
+-    num = int(input("Enter %d array element:" % (i + 1)))
+-    a.append(num)
+-
+-print("All array elements are:", end="")
+-for i in a:
+-    print(i, end=" ")
+-    
+-a.reverse()
+-print("\nReverse the order of the items:")
+-for i in a:
+-    print(i, end=" ")
+diff --git a/temp.txt b/temp.txt
+deleted file mode 100644
+index e69de29..0000000

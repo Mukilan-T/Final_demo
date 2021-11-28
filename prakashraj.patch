@@ -1,0 +1,75 @@
+diff --git a/mukilan.txt b/mukilan.txt
+new file mode 100644
+index 0000000..62b7ae5
+--- /dev/null
++++ b/mukilan.txt
+@@ -0,0 +1,2 @@
++Mukilan T
++20CSR129
+diff --git a/pattern.txt b/pattern.txt
+new file mode 100644
+index 0000000..e7c6491
+--- /dev/null
++++ b/pattern.txt
+@@ -0,0 +1,22 @@
++# Python 3.x code to demonstrate star pattern
++ 
++# Function to demonstrate printing pattern
++def pypart(n):
++     
++    # outer loop to handle number of rows
++    # n in this case
++    for i in range(0, n):
++     
++        # inner loop to handle number of columns
++        # values changing acc. to outer loop
++        for j in range(0, i+1):
++         
++            # printing stars
++            print("* ",end="")
++      
++        # ending line after each row
++        print("\r")
++ 
++# Driver Code
++n = 5
++pypart(n)
+diff --git a/praveen.txt b/praveen.txt
+new file mode 100644
+index 0000000..3c346c0
+--- /dev/null
++++ b/praveen.txt
+@@ -0,0 +1,2 @@
++praveen
++20csr153
+diff --git a/reverse.py b/reverse.py
+new file mode 100644
+index 0000000..f7a7752
+--- /dev/null
++++ b/reverse.py
+@@ -0,0 +1,18 @@
++import array as arr
++from array import *
++
++a = arr.array('i', [])
++
++k = int(input("Enter size of array:"))
++for i in range(0, k):
++    num = int(input("Enter %d array element:" % (i + 1)))
++    a.append(num)
++
++print("All array elements are:", end="")
++for i in a:
++    print(i, end=" ")
++    
++a.reverse()
++print("\nReverse the order of the items:")
++for i in a:
++    print(i, end=" ")
+diff --git a/sample.py b/sample.py
+new file mode 100644
+index 0000000..2aead04
+--- /dev/null
++++ b/sample.py
+@@ -0,0 +1 @@
++print(Heelo This is Praveen)
