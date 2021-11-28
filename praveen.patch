@@ -1,0 +1,26 @@
+diff --git a/prakashraj.txt b/prakashraj.txt
+deleted file mode 100644
+index 46bc347..0000000
+--- a/prakashraj.txt
++++ /dev/null
+@@ -1,2 +0,0 @@
+-prakashraj
+-20CSR149
+diff --git a/prakatesh.txt b/prakatesh.txt
+deleted file mode 100644
+index 4fd25f0..0000000
+--- a/prakatesh.txt
++++ /dev/null
+@@ -1,2 +0,0 @@
+-prakatesh
+-20CSR150
+diff --git a/sample.py b/sample.py
+deleted file mode 100644
+index 2aead04..0000000
+--- a/sample.py
++++ /dev/null
+@@ -1 +0,0 @@
+-print(Heelo This is Praveen)
+diff --git a/temp.txt b/temp.txt
+deleted file mode 100644
+index e69de29..0000000
